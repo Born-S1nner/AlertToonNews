@@ -1,0 +1,99 @@
+body {
+  background-color: #000000;
+  color:white;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-size: 20px;  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.title {
+  padding: 0%;
+  margin: 0%;
+  font-weight: 900; 
+  text-decoration: none; 
+}
+.title > :hover {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 44px;
+}
+.headLink {
+  background: green;
+  color: white;
+  text-align: center;
+  margin: 0px 0px 20px;
+}
+.headLink > :visited {
+  color:white;
+}
+.navbar {
+  margin: 10px 0px;
+}
+.dropdown-content {
+  position: relative;
+  background-color: rgb(18, 219, 62);
+  min-width: 160px;
+  z-index: 1;
+}
+.dropdown-content > :hover {
+  background-color: white;
+  color: rgb(18, 219, 62);
+}
+.dropdown-content > :focus {
+  background-color: white;
+  color: rgb(18, 219, 62);
+}
+.panel-button {
+  float: none;
+  color: #ffffff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border: 3px black solid;
+}
+.panel-hide{
+  text-align: center;
+  font-size: 30px;
+  margin: 0%;
+  border: 5px green solid;
+  background: black;
+  color: rgb(90, 209, 126);
+}
+.guard {
+  text-align: center;
+  border: 5px solid #73AD21;
+  border-radius: 20px 20px 20px 20px;  
+  background: white;
+  font-weight: bold; 
+  font-size:50px;
+  color: rgb(90, 209, 126);
+  box-sizing: border-box;
+  margin: 2%;
+}
+.articleStyle {
+  border-radius: 20%;
+  background-color: black;
+}
+.list {
+  display: flex;
+  text-align: center;  
+  justify-content:center;  
+  margin: 0;
+  padding: 5px;
+}
+.footer {
+  text-align: center;
+  width: 100%;
+  font: bold 30px black;
+  background: green;
+  display: grid;
+}
+.parag {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
