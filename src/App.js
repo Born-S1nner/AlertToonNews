@@ -8,11 +8,11 @@ import Series from "./structure/panel/series";
 
 class App extends React.Component {
   render() {
-    console.log(process.env.PUBLIC_URL)
+    console.log(process.env.PUBLIC_URL + "/")
     return (
-      <Router basename="process.env.PUBLIC_URL">
+      <Router>
         <React.Fragment>
-          <Header exact path={process.env.PUBLIC_URL + "/"} component={Home} />
+          <Header exact path="/" />
           <Route exact path="/about" component={About} />
           <Route exact path="/event" component={Event} />
           <Route exact path="/series" component={Series} />
