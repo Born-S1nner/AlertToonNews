@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <Router>
         <React.Fragment>
-          <Header path="/" />
+          <Header path="." />
           <Route path="/about" component={About} />
           <Route path="/event" component={Event} />
           <Route path="/series" component={Series} />
