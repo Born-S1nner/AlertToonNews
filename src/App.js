@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import Header from './structure/header';
 import Main from './structure/main';
 import About from './structure/panel/about'
@@ -9,9 +9,9 @@ import Series from "./structure/panel/series";
 class App extends React.Component {
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <React.Fragment>
-          <Header path="." />
+          <Header exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/event" component={Event} />
           <Route path="/series" component={Series} />
@@ -21,5 +21,6 @@ class App extends React.Component {
     )
   }
 }
+const Home = () => Home
 
 export default App;
