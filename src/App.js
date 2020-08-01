@@ -9,18 +9,17 @@ import Series from "./structure/panel/series";
 class App extends React.Component {
   render() {
     return (
-      <Router basename="/">
+      <Router basename="process.env.PUBLIC_URL">
         <React.Fragment>
           <Header exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/event" component={Event} />
-          <Route path="/series" component={Series} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/event" component={Event} />
+          <Route exact path="/series" component={Series} />
           <Main />
         </React.Fragment>
       </Router>
     )
   }
 }
-const Home = () => Home
 
 export default App;
