@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <div>
-            <Link className="title" to="/">
+            <Link className="title" to="/AlertToonNews">
                 <h1 className="headLink">
                     Alert-Toon<hr/>
                     Where art turns into a story has news
