@@ -2,7 +2,7 @@
   "name": "webtoon",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Born-S1nner.github.io/AlertToon",
+  "homepage": "http://Born-S1nner.github.io/AlertToonNews",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
