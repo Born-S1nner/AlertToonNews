@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/AlertToonNews/precache-manifest.acbeb77a32ea655e6f4fe2c5eb8faf98.js"
+  "/AlertToonNews/precache-manifest.e177692d5422dfd7e4a964fe03b769f8.js"
 );
 
 self.addEventListener('message', (event) => {

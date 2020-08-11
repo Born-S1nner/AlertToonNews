@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/AlertToonNews/static/css/main.05c12243.chunk.css",
-    "main.js": "/AlertToonNews/static/js/main.e7ccd9ee.chunk.js",
-    "main.js.map": "/AlertToonNews/static/js/main.e7ccd9ee.chunk.js.map",
+    "main.css": "/AlertToonNews/static/css/main.fbd287d0.chunk.css",
+    "main.js": "/AlertToonNews/static/js/main.9a9183c9.chunk.js",
+    "main.js.map": "/AlertToonNews/static/js/main.9a9183c9.chunk.js.map",
     "runtime-main.js": "/AlertToonNews/static/js/runtime-main.542ac583.js",
     "runtime-main.js.map": "/AlertToonNews/static/js/runtime-main.542ac583.js.map",
-    "static/js/2.9a362fa4.chunk.js": "/AlertToonNews/static/js/2.9a362fa4.chunk.js",
-    "static/js/2.9a362fa4.chunk.js.map": "/AlertToonNews/static/js/2.9a362fa4.chunk.js.map",
+    "static/css/2.34c0de18.chunk.css": "/AlertToonNews/static/css/2.34c0de18.chunk.css",
+    "static/js/2.8374f060.chunk.js": "/AlertToonNews/static/js/2.8374f060.chunk.js",
+    "static/js/2.8374f060.chunk.js.map": "/AlertToonNews/static/js/2.8374f060.chunk.js.map",
     "index.html": "/AlertToonNews/index.html",
-    "precache-manifest.acbeb77a32ea655e6f4fe2c5eb8faf98.js": "/AlertToonNews/precache-manifest.acbeb77a32ea655e6f4fe2c5eb8faf98.js",
+    "precache-manifest.e177692d5422dfd7e4a964fe03b769f8.js": "/AlertToonNews/precache-manifest.e177692d5422dfd7e4a964fe03b769f8.js",
     "service-worker.js": "/AlertToonNews/service-worker.js",
-    "static/css/main.05c12243.chunk.css.map": "/AlertToonNews/static/css/main.05c12243.chunk.css.map",
-    "static/js/2.9a362fa4.chunk.js.LICENSE.txt": "/AlertToonNews/static/js/2.9a362fa4.chunk.js.LICENSE.txt"
+    "static/css/2.34c0de18.chunk.css.map": "/AlertToonNews/static/css/2.34c0de18.chunk.css.map",
+    "static/css/main.fbd287d0.chunk.css.map": "/AlertToonNews/static/css/main.fbd287d0.chunk.css.map",
+    "static/js/2.8374f060.chunk.js.LICENSE.txt": "/AlertToonNews/static/js/2.8374f060.chunk.js.LICENSE.txt",
+    "static/media/Tower_of_god_anime.png": "/AlertToonNews/static/media/Tower_of_god_anime.9adb94d5.png",
+    "static/media/coin.jpg": "/AlertToonNews/static/media/coin.37ba84de.jpg",
+    "static/media/goh.jpg": "/AlertToonNews/static/media/goh.29e8c37f.jpg",
+    "static/media/mom.jpg": "/AlertToonNews/static/media/mom.e4468d4c.jpg",
+    "static/media/wolf.jpg": "/AlertToonNews/static/media/wolf.5e2ec069.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.542ac583.js",
-    "static/js/2.9a362fa4.chunk.js",
-    "static/css/main.05c12243.chunk.css",
-    "static/js/main.e7ccd9ee.chunk.js"
+    "static/css/2.34c0de18.chunk.css",
+    "static/js/2.8374f060.chunk.js",
+    "static/css/main.fbd287d0.chunk.css",
+    "static/js/main.9a9183c9.chunk.js"
   ]
 }
