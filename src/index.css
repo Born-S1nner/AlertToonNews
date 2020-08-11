@@ -64,6 +64,11 @@ body {
   background: black;
   color: rgb(90, 209, 126);
 }
+.sliderimg {
+  width: 90%;
+  height: 700px;
+  object-fit: fill;
+}
 .guard {
   text-align: center;
   border: 5px solid #73AD21;

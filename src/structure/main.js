@@ -1,6 +1,12 @@
 import React, { Component } from 'react'
 
 export class Main extends Component {
+    state = {
+        count: 0
+    }
+    buttonCount = () => {
+        console.log("hit that like button")
+    }
     render() {
         return (
             <React.Fragment>
@@ -14,7 +20,7 @@ export class Main extends Component {
                             </p>
                         </section>
                         <div className="list">
-                            like: #
+                            <button onClick={this.buttonCount}>Like: {this.state.count}</button>
                         </div>
                     </article>
                     <article className="articleStyle">
