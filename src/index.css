@@ -14,21 +14,14 @@ body {
 .title {
   padding: 0%;
   margin: 0%;
-  font-weight: 900; 
+  font-weight: 500; 
   text-decoration: none; 
-}
-.title > :hover {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 44px;
 }
 .headLink {
   background: green;
   color: white;
   text-align: center;
   margin: 0px 0px 20px;
-}
-.headLink > :visited {
-  color:white;
 }
 .navbar {
   margin: 10px 0px;
@@ -82,6 +75,8 @@ body {
 }
 .articleStyle {
   border-radius: 20%;
+  margin: 1%;
+  padding: 1%;
   background-color: black;
 }
 .list {

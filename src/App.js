@@ -6,23 +6,7 @@ import Event from './structure/panel/event'
 import Series from "./structure/panel/series";
 
 class App extends React.Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      count: 0,
-      updates: false
-    };
 
-    this.go= this.go.bind(this)
-  }
-
-  go () {
-    this.setState ( prevState => {
-      return {
-        count: prevState.count + 1
-      }
-    })
-  }
   render() {
     return (
       <Router>
@@ -35,14 +19,12 @@ class App extends React.Component {
             <h3>Current News</h3>
             <article className="articleStyle">
               <section>
-                <h4>New app for Webtoon</h4>
+                <h4>News site for Webtoon</h4>
+                <h5>1/22/2020</h5>
                 <p>
                   An individual who goes by the name "BornS1nner" deciedes to make an news app for every Webtoon fans.
                 </p>
               </section>
-              <div className="list">
-                <button onClick={this.go}>Like: {this.state.count}</button>
-              </div>
             </article>
             <article className="articleStyle">
               <section>
@@ -51,9 +33,15 @@ class App extends React.Component {
                   Bless on those that work with Webtoon for 6 years. Happy Birthday Webtoon!
                 </p>
               </section>
-              <div className="list">
-                like: #
-              </div>
+            </article>
+            <article className="articleStyle">
+              <section>
+                <h4>CANVAS Day!!!</h4>
+                <h5>8/13/2020</h5>
+                <p>
+                  Look forward to the CANVAS day to see the 20 series that are hand-picked for this occasion!
+                </p>
+              </section>
             </article>
           </div>
           <footer className="footer">
