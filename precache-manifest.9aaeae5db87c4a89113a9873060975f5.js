@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f418ed4d95220bcdb64a0ef03c874f3",
+    "revision": "c9c2a06882e779374c067cf9a48e4472",
     "url": "/AlertToonNews/index.html"
   },
   {
-    "revision": "7e8462040b56f241c4ec",
+    "revision": "bf156fdb729fecd8cf9d",
     "url": "/AlertToonNews/static/css/2.34c0de18.chunk.css"
   },
   {
-    "revision": "0dd78a3f3bfe6aa74da7",
-    "url": "/AlertToonNews/static/css/main.fbd287d0.chunk.css"
+    "revision": "b9766f0ed040da7f7666",
+    "url": "/AlertToonNews/static/css/main.1467f852.chunk.css"
   },
   {
-    "revision": "7e8462040b56f241c4ec",
-    "url": "/AlertToonNews/static/js/2.8374f060.chunk.js"
+    "revision": "bf156fdb729fecd8cf9d",
+    "url": "/AlertToonNews/static/js/2.e2c899d9.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/AlertToonNews/static/js/2.8374f060.chunk.js.LICENSE.txt"
+    "url": "/AlertToonNews/static/js/2.e2c899d9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0dd78a3f3bfe6aa74da7",
-    "url": "/AlertToonNews/static/js/main.9a9183c9.chunk.js"
+    "revision": "b9766f0ed040da7f7666",
+    "url": "/AlertToonNews/static/js/main.ad33b925.chunk.js"
   },
   {
     "revision": "e0097a9300af1c478652",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9adb94d54e5ed207d987f11fed5f16e7",
     "url": "/AlertToonNews/static/media/Tower_of_god_anime.9adb94d5.png"
-  },
-  {
-    "revision": "37ba84decbde39cdeeabe0190df27505",
-    "url": "/AlertToonNews/static/media/coin.37ba84de.jpg"
   },
   {
     "revision": "29e8c37fea96c2bd34da1624dc83b16b",
